@@ -35,7 +35,7 @@
 ---
 
 ## Section 3: Video Presentation & Project Structure
-- **Video Presentation Link:** [Provide an accessible link to your 5–7 minute video presentation]
+- **Video Presentation Link:** https://drive.google.com/file/d/1f8G5U0n9n-q7XqZdW2z7iqGQYElGcpgD/view?usp=sharing 
 - **Project Directory Structure:** All of the data sits in .csv files withing the data/ directory. app.py is the entry point and holds studentscheduler(), which loads the data, runs the solver, and writes the timetable CSV. data_loader.py reads the CSV files, and timetable_model.py defines the variables, domains, constraints, and soft penalty score. backtracking.py and localsearch.py hold the CSP and Min-Conflicts algorithms, csp_heuristics.py has the MRV, LCV, and forward checking versions of the algorithms, and soft_search.py optimizes the soft penalties. solver.py runs the full pipeline, and the data/ folder holds the input CSVs and the output yhuss3_timetable.csv. report.md, AI_declaration.png, and requirements.txt sit in the root as required.
 
 ---
