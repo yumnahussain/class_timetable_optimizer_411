@@ -10,9 +10,9 @@
 ---
 
 ## Student Information 
-- **Name:** [Write your Name here]
-- **UID (netID):** [Write your UID (netID) here]
-- **UIN:** [Write your UIN here]
+- **Name:** Yumna Hussain
+- **UID (netID):** yhuss3
+- **UIN:** 673006309
 
 ---
 
