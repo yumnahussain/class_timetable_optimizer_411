@@ -1,0 +1,73 @@
+{
+  "problem_name": "University Course Timetable Scheduling (CSP & Local Search Optimization)",
+  "hard_constraints": [
+    {
+      "id": "H1_NO_ROOM_CLASH",
+      "name": "No Room Double-Booking",
+      "description": "A single room cannot host more than one course session simultaneously at the same time slot.",
+      "penalty_weight": 1000
+    },
+    {
+      "id": "H2_ROOM_CAPACITY_AND_TYPE",
+      "name": "Room Capacity & Capability",
+      "description": "Room capacity must be greater than or equal to course enrollment, and room type must match required type (e.g., Computer Lab for lab courses).",
+      "penalty_weight": 1000
+    },
+    {
+      "id": "H3_NO_INSTRUCTOR_CLASH",
+      "name": "No Instructor Double-Booking",
+      "description": "An instructor cannot teach more than one course session at the same time slot.",
+      "penalty_weight": 1000
+    },
+    {
+      "id": "H4_INSTRUCTOR_UNAVAILABILITY",
+      "name": "Instructor Unavailability",
+      "description": "An instructor cannot be scheduled into their declared unavailable time slots.",
+      "penalty_weight": 1000
+    },
+    {
+      "id": "H5_NO_STUDENT_COHORT_CLASH",
+      "name": "No Student Cohort Clash",
+      "description": "Mandatory courses belonging to the same student cohort cannot be scheduled at the same time slot.",
+      "penalty_weight": 1000
+    },
+    {
+      "id": "H6_ALL_COURSES_SCHEDULED",
+      "name": "Complete Course Scheduling",
+      "description": "Every required course in the curriculum must be assigned to a valid slot and room.",
+      "penalty_weight": 1000
+    }
+  ],
+  "soft_constraints": [
+    {
+      "id": "S1_INSTRUCTOR_PREFERENCE",
+      "name": "Instructor Preferred Slots",
+      "description": "Prefer assigning instructors to their preferred time slots.",
+      "penalty_weight": 10
+    },
+    {
+      "id": "S2_SEAT_UTILIZATION_FIT",
+      "name": "Room Capacity Optimization",
+      "description": "Avoid assigning small classes to oversized rooms to minimize wasted seat capacity (penalty for excess unused capacity > 30 seats).",
+      "penalty_weight": 5
+    },
+    {
+      "id": "S3_STUDENT_GAP_MINIMIZATION",
+      "name": "Minimize Student Cohort Dead Hours",
+      "description": "Avoid fragmented schedules with isolated idle gaps (e.g. 1-slot gaps) between classes on the same day for student cohorts.",
+      "penalty_weight": 8
+    },
+    {
+      "id": "S4_CONSECUTIVE_FATIGUE",
+      "name": "Consecutive Session Fatigue Limit",
+      "description": "Penalize having more than 2 consecutive sessions back-to-back without a break for the same cohort or instructor.",
+      "penalty_weight": 12
+    },
+    {
+      "id": "S5_CAMPUS_BUILDING_TRANSIT",
+      "name": "Minimize Cross-Building Rushing",
+      "description": "Penalize consecutive sessions for the same student cohort in different campus buildings.",
+      "penalty_weight": 6
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+room_id,building,floor,physical_capacity,scheduling_capacity,room_type,available_for_regular_classes,scheduling_notes,features_or_constraints
+AUD 100,AUDITORIUM,1,180,180,Auditorium,Yes,Large undergraduate lectures,Projector;Sound System;Stage
+TECH 106,TECH,1,64,64,Specialized / EVL,Yes,"Upper-level, graduate, and visual computing courses",EVL;Workstations
+TECH 100,TECH,1,48,48,Classroom,Yes,Primarily 500-level graduate seminars and 400-level electives,Projector;Whiteboard
+TECH 101,TECH,1,32,32,Classroom / Lab,Yes,Discussion sections and laboratory sessions,Projector;Whiteboard
+TECH 102,TECH,1,32,32,Classroom / Lab,Yes,Discussion sections and laboratory sessions,Projector;Whiteboard
+TECH 103,TECH,1,32,32,Classroom / Lab,Yes,Discussion sections and laboratory sessions,Projector;Whiteboard
+TECH 104,TECH,1,32,32,Classroom / Lab,Yes,Discussion sections and laboratory sessions,Projector;Whiteboard
+TECH 206,TECH,2,64,64,Classroom,Yes,Large 400-level core and graduate courses,Projector;Whiteboard
+TECH 201,TECH,2,32,32,Classroom / Lab,Yes,"Discussion, lecture, graduate topics, and computer labs",Projector;Whiteboard
+TECH 202,TECH,2,32,32,Classroom / Lab,Yes,"Discussion, lecture, graduate topics, and computer labs",Projector;Whiteboard
+TECH 203,TECH,2,32,32,Classroom / Lab,Yes,"Discussion, lecture, graduate topics, and computer labs",Projector;Whiteboard
+TECH 204,TECH,2,32,32,Classroom / Lab,Yes,"Discussion, lecture, graduate topics, and computer labs",Projector;Whiteboard
+LAB 254,LAB,2,52,0,Testing Center / Computer Lab,No,Testing Center; do not schedule regular classes for Spring 2027,52 Linux workstations; Ubuntu environment; collaboration displays
+LAB 201,LAB,2,32,32,Computer Lab,Yes,"Computer lab; used for CS 107, CS 109, and overflow CS 141 sections",Computer Lab;Workstations
+SOUTH 205,SOUTH,2,40,32,Classroom,Yes,Used for CS 107 and CS 109,Physical capacity 40; scheduling cap 32
+AUD C1,AUDITORIUM,1,104,104,Lecture Hall,Yes,High-demand 400-level core lectures,Projector;Sound System
+HALL B,WEST HALL,1,78,78,Classroom,Yes,Medium-to-large undergraduate and upper-level lectures,Projector;Whiteboard
+RESEARCH 206,RESEARCH,2,45,45,Classroom,Yes,Requested room for CS 427,Projector;Whiteboard
+CAMPUS-CTR 137,CAMPUS-CTR,1,60,60,Classroom,Yes,Requested off-site classroom for CS 107,Projector;Whiteboard
+CAMPUS-CTR 240,CAMPUS-CTR,2,50,50,Classroom,Yes,Requested off-site classroom for CS 440 / CS 442,Projector;Whiteboard

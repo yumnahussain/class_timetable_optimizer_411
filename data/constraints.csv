@@ -1,0 +1,15 @@
+constraint_id,constraint_name,constraint_type,description,rule,applies_to
+C001,Room Capacity,Hard,Course enrollment must not exceed the room's scheduling capacity.,enrollment <= scheduling_capacity,All courses
+C002,Room Conflict,Hard,A room cannot be assigned to more than one class during overlapping times.,no overlapping meetings in same room,All rooms
+C003,Instructor Conflict,Hard,An instructor cannot be assigned to overlapping classes.,no overlapping meetings for same instructor,All instructors
+C004,Testing Center Restriction,Hard,LAB 254 is reserved as the Spring 2027 Testing Center and cannot host regular classes.,room_id != 'LAB 254',LAB 254
+C005,Scheduling Capacity Cap,Hard,Use the scheduling capacity rather than physical capacity when a room has a lower scheduling cap.,enrollment <= scheduling_capacity,Rooms with scheduling caps
+C006,CS 427 Room Request,Preferred,Prefer RESEARCH 206 for CS 427.,preferred_room = 'RESEARCH 206',CS 427
+C007,CS 107 Room Request,Preferred,Prefer CAMPUS-CTR 137 for CS 107 where appropriate.,preferred_room = 'CAMPUS-CTR 137',CS 107
+C008,CS 440/442 Room Request,Preferred,Prefer CAMPUS-CTR 240 for CS 440 and CS 442 where appropriate.,preferred_room = 'CAMPUS-CTR 240',CS 440; CS 442
+C009,Computer Lab Suitability,Preferred,Courses requiring computers should be assigned to computer-equipped lab rooms.,required_room_type matches room_type/features,Computer lab sections
+C010,Activity Room Suitability,Preferred,"Match lecture, discussion, lab, seminar, and specialized activities to suitable room types.",activity_type compatible with room_type,All courses
+C011,Historical Placement,Preferred,Spring 2026 assignments may be used as a baseline when no stronger Spring 2027 constraint applies.,prefer historical assignment when feasible,All courses
+C012,Capacity Utilization,Preferred,Avoid assigning small classes to unnecessarily large rooms when a suitable smaller room is available.,minimize scheduling_capacity - enrollment,All courses
+C013,Discussion Capacity Balance,Preferred,Balance enrollment across discussion sections while respecting each room and section capacity.,balance section enrollment,Discussion sections
+C014,Room Availability,Hard,Only assign rooms that are available for regular Spring 2027 classes.,available_for_regular_classes = 'Yes',All rooms

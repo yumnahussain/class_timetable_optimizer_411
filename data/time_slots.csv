@@ -1,0 +1,51 @@
+slot_id,day,start_time,end_time,period
+MON_S1,Monday,08:00,08:50,Morning 1
+MON_S2,Monday,09:00,09:50,Morning 2
+MON_S3,Monday,10:00,10:50,Morning 3
+MON_S4,Monday,11:00,11:50,Morning 4
+MON_S5,Monday,12:00,12:50,Midday
+MON_S6,Monday,13:00,14:15,Afternoon 1
+MON_S7,Monday,14:00,15:15,Afternoon 2
+MON_S8,Monday,15:00,16:15,Afternoon 3
+MON_S9,Monday,16:00,17:15,Afternoon 4
+MON_S10,Monday,17:00,18:15,Evening
+TUE_S1,Tuesday,08:00,08:50,Morning 1
+TUE_S2,Tuesday,09:00,09:50,Morning 2
+TUE_S3,Tuesday,10:00,10:50,Morning 3
+TUE_S4,Tuesday,11:00,11:50,Morning 4
+TUE_S5,Tuesday,12:00,12:50,Midday
+TUE_S6,Tuesday,13:00,14:15,Afternoon 1
+TUE_S7,Tuesday,14:00,15:15,Afternoon 2
+TUE_S8,Tuesday,15:00,16:15,Afternoon 3
+TUE_S9,Tuesday,16:00,17:15,Afternoon 4
+TUE_S10,Tuesday,17:00,18:15,Evening
+WED_S1,Wednesday,08:00,08:50,Morning 1
+WED_S2,Wednesday,09:00,09:50,Morning 2
+WED_S3,Wednesday,10:00,10:50,Morning 3
+WED_S4,Wednesday,11:00,11:50,Morning 4
+WED_S5,Wednesday,12:00,12:50,Midday
+WED_S6,Wednesday,13:00,14:15,Afternoon 1
+WED_S7,Wednesday,14:00,15:15,Afternoon 2
+WED_S8,Wednesday,15:00,16:15,Afternoon 3
+WED_S9,Wednesday,16:00,17:15,Afternoon 4
+WED_S10,Wednesday,17:00,18:15,Evening
+THU_S1,Thursday,08:00,08:50,Morning 1
+THU_S2,Thursday,09:00,09:50,Morning 2
+THU_S3,Thursday,10:00,10:50,Morning 3
+THU_S4,Thursday,11:00,11:50,Morning 4
+THU_S5,Thursday,12:00,12:50,Midday
+THU_S6,Thursday,13:00,14:15,Afternoon 1
+THU_S7,Thursday,14:00,15:15,Afternoon 2
+THU_S8,Thursday,15:00,16:15,Afternoon 3
+THU_S9,Thursday,16:00,17:15,Afternoon 4
+THU_S10,Thursday,17:00,18:15,Evening
+FRI_S1,Friday,08:00,08:50,Morning 1
+FRI_S2,Friday,09:00,09:50,Morning 2
+FRI_S3,Friday,10:00,10:50,Morning 3
+FRI_S4,Friday,11:00,11:50,Morning 4
+FRI_S5,Friday,12:00,12:50,Midday
+FRI_S6,Friday,13:00,14:15,Afternoon 1
+FRI_S7,Friday,14:00,15:15,Afternoon 2
+FRI_S8,Friday,15:00,16:15,Afternoon 3
+FRI_S9,Friday,16:00,17:15,Afternoon 4
+FRI_S10,Friday,17:00,18:15,Evening

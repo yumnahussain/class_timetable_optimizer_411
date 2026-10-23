@@ -1,0 +1,6 @@
+cohort_id,name,year,department,size,mandatory_courses
+CS_Y1,CS Freshman Year 1,1,Computer Science,150,CS 101; CS 111; CS 141; CS 151
+CS_Y2,CS Sophomore Year 2,2,Computer Science,75,CS 211; CS 251; CS 261; CS 277
+CS_Y3,CS Junior Year 3,3,Computer Science,60,CS 301; CS 341; CS 342; CS 361
+CS_Y4,CS Senior Year 4,4,Computer Science,48,CS 401; CS 418; CS 421; CS 474
+CS_GRAD,CS Graduate MS/PhD,5,Computer Science,28,CS 511; CS 514; CS 524; CS 588
